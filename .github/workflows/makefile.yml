@@ -1,9 +1,9 @@
 name: Build
 
 on:
-  schedule:
+  #schedule:
     # 00:15 PST / Nightly
-    - cron:  '00 7 * * *'
+    #- cron:  '00 7 * * *'
   workflow_dispatch:
     inputs:
       tg_disabled:
